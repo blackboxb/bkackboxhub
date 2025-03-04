@@ -1,3 +1,151 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Black and White Theme */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+./* General Elements */
+h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* White headings */
+}
+
+a {
+    color: #ccc; /* Light gray links */
+}
+
+a:hover {
+    color: #fff; /* White links on hover */
+}
+
+button {
+    background-color: #333; /* Dark gray buttons */
+    color: #fff;
+    border: 1px solid #555;
+}
+
+button:hover {
+    background-color: #555; /* Light gray buttons on hover */
+}
+
+input, textarea, select {
+    background-color: #111; /* Very dark gray inputs */
+    color: #fff;
+    border: 1px solid #333;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #777; /* Light gray focus border */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Card-like components */
+.card {
+    background-color: #1a1a1a; /* Darker gray cards */
+    border: 1px solid #333;
+}
+
+.card-header {
+    background-color: #222;
+    border-bottom: 1px solid #333;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Modal and Overlay */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+}
+
+.modal-content {
+    background-color: #222; /* Dark gray modal content */
+    border: 1px solid #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #111; /* Very dark gray navbar */
+    border-bottom: 1px solid #333;
+}
+
+.navbar a {
+    color: #ccc;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #111; /* Very dark gray footer */
+    border-top: 1px solid #333;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+/* Loader */
+.loader {
+    border: 4px solid #333;
+    border-top: 4px solid #fff;
+}
+
+/* Add more specific styles as needed based on your components */
+/* Example for an alert box */
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+/* Example for list items */
+li {
+  color: #ccc;
+}
+
+li:hover {
+  color: #fff;
+}
+
+/* Example for form labels */
+label {
+  color: #ccc;
+}
